@@ -1,4 +1,4 @@
-# JS → ESP32 bytecode compiler
+# Bruce Compile JS (for mquickjs)
 
 Compiles a Bruce `.js`/`.bjs` script into mquickjs bytecode (`.bin`) that the
 firmware can load directly via `JS_LoadBytecode`, skipping on-device parsing.
