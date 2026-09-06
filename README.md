@@ -51,7 +51,7 @@ without needing Docker/mquickjs locally:
 ```yaml
 jobs:
   compile:
-    uses: BruceDevices/compile-js/compile.yml@vX.X.X
+    uses: BruceDevices/compile-js/compile.yml@main
     with:
       input-file: scripts/myscript.js
       # output-file: scripts/myscript.bin   # optional, defaults to input with .bin extension
