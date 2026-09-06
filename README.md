@@ -6,7 +6,7 @@ firmware can load directly via `JS_LoadBytecode`, skipping on-device parsing.
 ## Build
 
 ```sh
-docker build -t compile-js docker/js-compiler
+docker build -t compile-js docker
 ```
 
 ## Compile a script
