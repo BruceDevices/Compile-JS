@@ -51,12 +51,12 @@ without needing Docker/mquickjs locally:
 ```yaml
 jobs:
   compile:
-    uses: BruceDevices/compile-js/.github/workflows/compile.yml@v1
+    uses: BruceDevices/compile-js/compile.yml@vX.X.X
     with:
       input-file: scripts/myscript.js
       # output-file: scripts/myscript.bin   # optional, defaults to input with .bin extension
-      # image-tag: v1.2.3                   # optional, defaults to latest
+      # image-tag: vX.X.X                   # optional, defaults to latest
 ```
 
-Pin to a release tag (`@v1`) rather than `@main` for reproducible bytecode —
+Pin to a release tag (`@vX.X.X`) rather than `@main` for reproducible bytecode —
 see the mquickjs version-pinning note above; the same reasoning applies here.
